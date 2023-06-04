@@ -53,12 +53,7 @@
         }
     },
     {
-        "message": "...",
-        "image": {
-            "url": "imgs/blow.png"
-        },
-        "transform": "translateY(-80%) scale(3)",
-        "link": "./index.html"
+        "message": "Дальше будет оригинальная игра"
     },
     {
         "message": "НЕ НАЖИМАТЬ!"
