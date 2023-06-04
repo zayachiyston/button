@@ -6,10 +6,10 @@
         "message": "Можно просто менять текст"
     },
     {
-        "message": "Ссылка может быть в тексте: <a href=\"zayachiyston.ru\">zayachiyston.ru</a>"
+        "message": "Ссылка может быть в тексте: <a href=\"https://www.zayachiyston.ru/\">zayachiyston.ru</a>"
     },
     {
-        "message": "Ссылка может называться иначе (но вести все равно туда же): <a href=\"zayachiyston.ru\">Кнопочный стон</a>"
+        "message": "Ссылка может называться иначе (но вести все равно туда же): <a href=\"https://www.zayachiyston.ru/\">Кнопочный стон</a>"
     },
     {
         "message": "Можно размножить кнопки (в сетку любого размера) и одна из них верная",
