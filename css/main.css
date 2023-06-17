@@ -93,6 +93,54 @@ body {
     background-image: url(../imgs/blue-btn-p.png)
 }
 
+.button--yes {
+    background-image: url(../imgs/yes-btn.png)
+}
+
+.button--yes:active {
+    background-image: url(../imgs/yes-btn-p.png)
+}
+
+.button--no {
+    background-image: url(../imgs/no-btn.png)
+}
+
+.button--no:active {
+    background-image: url(../imgs/no-btn-p.png)
+}
+
+.button--a {
+    background-image: url(../imgs/a.png)
+}
+
+.button--a:active {
+    background-image: url(../imgs/a.png)
+}
+
+.button--b {
+    background-image: url(../imgs/b.png)
+}
+
+.button--b:active {
+    background-image: url(../imgs/b.png)
+}
+
+.button--c {
+    background-image: url(../imgs/c.png)
+}
+
+.button--c:active {
+    background-image: url(../imgs/c.png)
+}
+
+.button--d {
+    background-image: url(../imgs/d.png)
+}
+
+.button--d:active {
+    background-image: url(../imgs/d.png)
+}
+
 .pos-x-animation {
     animation: xSlideAnim 2.5s linear infinite
 }

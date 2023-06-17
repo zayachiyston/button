@@ -95,6 +95,20 @@ var preloadImage = function(e) {
                     }
                     this.buttonWrapper.querySelectorAll(".button")[0].classList.add("button--blue"), this.buttonWrapper.querySelectorAll(".button")[1].classList.add("button--red"), this.buttonWrapper.querySelectorAll(".button")[2].classList.add("button--green")
                 }
+                if (t.multiply && "yn" == t.multiply.type) {
+                    for (var n = 1; n < 2; n++) {
+                        var o = document.createElement("div");
+                        o.classList.add("button"), n < t.multiply.true ? this.buttonWrapper.insertBefore(o, this.button) : this.buttonWrapper.appendChild(o)
+                    }
+                    this.buttonWrapper.querySelectorAll(".button")[0].classList.add("button--yes"), this.buttonWrapper.querySelectorAll(".button")[1].classList.add("button--no")
+                }
+                if (t.multiply && "abcd" == t.multiply.type) {
+                    for (var n = 1; n < 4; n++) {
+                        var o = document.createElement("div");
+                        o.classList.add("button"), n < t.multiply.true ? this.buttonWrapper.insertBefore(o, this.button) : this.buttonWrapper.appendChild(o)
+                    }
+                    this.buttonWrapper.querySelectorAll(".button")[0].classList.add("button--a"), this.buttonWrapper.querySelectorAll(".button")[1].classList.add("button--b"), this.buttonWrapper.querySelectorAll(".button")[2].classList.add("button--c"), this.buttonWrapper.querySelectorAll(".button")[3].classList.add("button--d")
+                }
                 if (t.popup && (t.popup.classList.add("visible"), this.currentPopup = t.popup), t.randomize) {
                     var u = Math.floor(Math.random() * t.randomize.amount);
                     this.buttonWrapper.style.width = "100%";
