@@ -76,7 +76,7 @@ var preloadImage = function(e) {
                 (this.messageBox.innerHTML = t.message, t.image ? (this.button.classList.add("button--custom"), this.button.style.backgroundImage = "url('" + t.image.url + "')") : this.button.classList.remove("button--custom"), t.backgroundImage) && (document.querySelector("body").style.backgroundImage = t.backgroundImage);
                 if (t.url)
                 {
-                    this.button.innerHTML = "<a href=\"" + t.url + "\">" + this.button.innerHTML + "</a>"
+                    this.buttonWrapper.innerHTML = "<a href=\"" + t.url + "\">" + this.button.innerHTML + "</a>"
                 }
                 if (t.transform && (this.button.style.transform = t.transform), t.animation && t.animation.class && (this.currentAnimationClass = t.animation.class, this.button.classList.add(t.animation.class)), t.multiply && "grid" == t.multiply.type) {
                     var e = t.multiply.x * t.multiply.y,
