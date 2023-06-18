@@ -77,9 +77,7 @@ var preloadImage = function(e) {
                 if (t.url)
                 {
                     var buttonWrapperInnerHTML = this.buttonWrapper.innerHTML
-                    console.log(buttonWrapperInnerHTML)
                     var newContent = "<a href=\"" + t.url + "\">" + buttonWrapperInnerHTML + "</a>"
-                    console.log(newContent)
                     this.buttonWrapper.innerHTML = newContent
                 }
                 if (t.transform && (this.button.style.transform = t.transform), t.animation && t.animation.class && (this.currentAnimationClass = t.animation.class, this.button.classList.add(t.animation.class)), t.multiply && "grid" == t.multiply.type) {
