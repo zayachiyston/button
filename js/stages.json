@@ -1,7 +1,11 @@
 [
     {
-        "message": "Не нажимать"
+        "message": "Не нажимать",
+        "url": "https://www.zayachiyston.ru/"
     },
+    {
+        "restart": true
+    }
     {
         "message": "Кхм, написано же «Не нажимать»"
     },
@@ -131,9 +135,6 @@
         }
     },
     {
-        "message": "Кстати!"
-    },
-    {
         "message": "А ты знаешь, что эти четыре парня - это квартет «Заячий стон»?",
         "multiply": {
             "type": "yn",
@@ -149,21 +150,21 @@
     {
         "message": "Да какая разница. Просто тыкай красную кнопку",
         "multiply": {
-            "type": "rbg",
+            "type": "rgb",
             "true": 1
         }
     },
     {
         "message": "Хорошо, теперь зелёную",
         "multiply": {
-            "type": "rbg",
-            "true": 3
+            "type": "rgb",
+            "true": 2
         }
     },
     {
         "message": "Ну и наконец-то синюю",
         "multiply": {
-            "type": "rbg",
+            "type": "rgb",
             "true": 1
         }
     },
