@@ -63,7 +63,7 @@ var preloadImage = function(e) {
             key: "clearField",
             value: function() {
                 var e = this;
-                this.appWrapper.setAttribute("style", ""), this.button.setAttribute("style", ""), this.buttonWrapper.setAttribute("style", ""), this.currentPopup && this.currentPopup.classList.remove("visible"), this.currentAnimationClass && this.button.classList.remove(this.currentAnimationClass), this.button.classList.remove("button--green", "button--blue"), this.button.classList.add("button--red"), this.button.querySelector(".button-ref") && this.button.querySelector(".button-ref").remove(), Array.from(this.buttonWrapper.querySelectorAll(".button")).map(function(t) {
+                this.appWrapper.setAttribute("style", ""), this.button.setAttribute("style", ""), this.buttonWrapper.setAttribute("style", ""), this.currentPopup && this.currentPopup.classList.remove("visible"), this.currentAnimationClass && this.button.classList.remove(this.currentAnimationClass), this.button.classList.remove("button--green", "button--blue", "button--yes", "button--no", "button--a", "button--b", "button--c", "button--d"), this.button.classList.add("button--red"), this.button.querySelector(".button-ref") && this.button.querySelector(".button-ref").remove(), Array.from(this.buttonWrapper.querySelectorAll(".button")).map(function(t) {
                     t != e.button && t.remove()
                 })
             }
