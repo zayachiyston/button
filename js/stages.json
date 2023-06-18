@@ -122,15 +122,14 @@
         "multiply": {
             "type": "abcd",
             "true": 4
-        },
-        "transform": "translateY(-80%) scale(3)"
+        }
     },
     {
         "message": "Тыкай на Максима нежнее!",
         "image": {
             "url": "imgs/maxim.png"
         },
-        "transform": "translateY(-80%) scale(3)"
+        "transform": "translateY(-60%) scale(2)"
     },
     {
         "message": "А ты знаешь, что эти четыре парня - это квартет «Заячий стон»?",
