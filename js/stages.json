@@ -122,13 +122,15 @@
         "multiply": {
             "type": "abcd",
             "true": 4
-        }
+        },
+        "transform": "translateY(-80%) scale(3)"
     },
     {
         "message": "Тыкай на Максима нежнее!",
         "image": {
             "url": "imgs/maxim.png"
-        }
+        },
+        "transform": "translateY(-80%) scale(3)"
     },
     {
         "message": "А ты знаешь, что эти четыре парня - это квартет «Заячий стон»?",
@@ -147,21 +149,21 @@
         "message": "Да какая разница. Просто тыкай красную кнопку",
         "multiply": {
             "type": "rgb",
-            "true": 1
+            "true": 2
         }
     },
     {
         "message": "Хорошо, теперь зелёную",
         "multiply": {
             "type": "rgb",
-            "true": 2
+            "true": 3
         }
     },
     {
         "message": "Ну и наконец-то синюю",
         "multiply": {
             "type": "rgb",
-            "true": 1
+            "true": 2
         }
     },
     {
@@ -180,7 +182,8 @@
         "message": "Вот они!",
         "image": {
             "url": "imgs/band.png"
-        }
+        },
+        "transform": "translateY(-80%) scale(3)"
     },
     {
         "message": "Хоть что-то полезное узнаешь, пока тыкаешь!"
